@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body{
+    background-color:burlywood;
+    background-image: url(Img/fondos-de-pantalla-3d-paisaje.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+
+h1{
+    background-color: rgb(42, 116, 165);
+    color: white;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+}
+p{
+    text-align: justify;
+    color: white;
+    font-size: 16px;
+}
+article h1{
+    background-color: black;
+    width: 80%;
+    margin-left: 10%;
+    font-family: "Nerko One", cursive;
+}
+
+article h1{
+    background-color: coral;
+    color: beige;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Nerko One", cursive;
+
+
+}
+header{
+    padding: 15px;
+    
+    background-image: url(Img/logo_famoso_starbuck.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    
+    background: size 200px;
+}
+
+#logo{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 50px;
+    color: brown;
+    font-weight: bold;
+    -webkit-border-radius: 50px 200px 50px 50px;
+border-radius: 50px 200px 50px 50px;
+-webkit-box-shadow: 0 0 15px 5px #FF4294;
+box-shadow: 0 0 15px 5px #FF4294;
+}
+
+#logo:hover{
+    -moz-transform: scale(1.5) rotate(360deg);
+    -webkit-transform: scale(1.5) rotate(360deg);
+    -o-transform: scale(1.5) rotate(360deg);
+    -ms-transform: scale(1.5) rotate(360deg);
+    transform: scale(1.5) rotate(360deg);}
+
+   
+
+
+.destacado{
+    font-style: italic;
+    text-align: right;
+    width: 60%;
+    margin-left: 30%;
+    color:white;
+    padding-bottom: 30px;
+}
+
+.propiedades{
+    background-color: rgb(29, 39, 36);
+    /*Margen interno*/
+    /*
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    */
+    /* padding: 50px 40px 50px 40px;
+    padding: 50px 40px; */
+    padding: 30px;
+
+
+    margin-top: 150px;
+    margin-right: 40px;
+    margin-bottom: 140px;
+    margin-left: 60px;
+    margin: 100px 50px 20px 40px; 
+    margin: 40px;
+    
+    border-top: 4px red solid;
+    border-right: 10px greenyellow dashed;
+    border-bottom: 3px orange dotted;
+    border-left: rgb(117, 117, 117) 5px double;
+
+}
+nav li{
+    display: inline;
+}
+nav a:link{
+    color: rgb(red8255, 57,57);
+    text-decoration: none;
+    border: solid 1px black;
+    padding: 5px 10px;
+
+}
+nav a:hover{
+    background-color: brown;
+    color: white;
+
+}
+nav a:active{
+    background-color: black;
+}
+.todo{
+    width: 1200px;
+    /*background-color: white;*/
+    margin:0 auto;
+}
+
