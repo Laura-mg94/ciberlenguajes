@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #22b7e4;
+}
+
+.articulo img {
+    width: 100%;
+    background-size: cover;
+    
+    
+}
+.articulo h2 {
+    
+    color: #22b7e4;
+    text-align: center;
+}
+.articulo p {
+    
+    color: white;
+}
+.article {
+    display: flex;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.article div {
+    margin: 10px;
+}
+
+a {
+    color: #22b7e4;
+}
+
+.contenedor {
+    text-align: center;
+    align-content: center;
+}
+/* Estilos generales que aplican a todos los dispositivos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 600px) {
+    div {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1em;
+    }
+    iframe {
+        width: 100%; /* Cada elemento ocupa el 100% del ancho en móviles */
+        margin-bottom: 10px;
+    }
+    .article {
+        display:block;
+    }
+}
+
+/* Estilos para dispositivos tipo tabletas */
+@media (min-width: 601px) and (max-width: 1024px) {
+    div {
+        width: 90%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    iframe {
+        width: 48%; /* Dos elementos en una fila en tabletas */
+        display: inline-block;
+        margin: 1%;
+    }
+}
+
+
+
